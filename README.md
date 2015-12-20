@@ -35,7 +35,7 @@ const pathParams = require('path-params')
 const path = pathParams('/users/:id/:action', { id: 123, action: 'foo' })
 
 if (path instanceof Error) {
-  console.error('Params error:', err.message)
+  console.error('Params error:', path.message)
 } else {
   console.log('Path:', path) // -> '/users/123/foo'
 }
