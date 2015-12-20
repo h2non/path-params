@@ -49,4 +49,4 @@ if (path instanceof Error) {
 
 [MIT](http://opensource.org/licenses/MIT) © Tomas Aparicio
 
-[travis]: http://travis-ci.org/h2non/theon
+[travis]: http://travis-ci.org/h2non/path-params
